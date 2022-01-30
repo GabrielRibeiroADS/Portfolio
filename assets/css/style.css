@@ -1,0 +1,12 @@
+@import "./variables.css";
+
+body{
+    background-color: var(--secondaryColor);
+    overflow-x: hidden;
+    font-family: "Montserrat";
+    color: var(--primaryColor);
+}
+
+
+
+

@@ -1,0 +1,9 @@
+.abilities span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.abilities img{
+    transform: scaleX(-1);
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+.btn.btn-dark{
+    border-radius: 15em;
+    background-color: var(--thirdColor);
+    padding: 1.5% 10%
+}
+
+.btn.btn-custom.btn-secondary{
+    background-color: var(--primaryColor);
+    border: none;
+}
+.btn.btn-custom.btn-secondary:hover{
+    background-color: var(--fourthColor);
+}

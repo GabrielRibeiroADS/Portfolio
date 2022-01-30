@@ -1,0 +1,42 @@
+.hero {
+    padding-top: 100px;    
+}
+
+.hero ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.hero ul li{
+    margin-top: 15px;
+    
+}
+
+.hero ul li:first-child{
+    font-size: 2em;
+}
+
+.hero .text{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 25px;
+
+}
+
+.hero img{
+    width: 100%;
+}
+
+@media(max-width:1024px){
+    .hero ul li{
+        font-size:0.7em;
+    }
+    .hero ul li:first-child{
+        font-size: 1.3em;
+    }
+}
+
+
+

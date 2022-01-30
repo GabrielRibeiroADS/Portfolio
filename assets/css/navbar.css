@@ -1,0 +1,9 @@
+.navbar.navbar-custom .navbar-nav .nav-link.active,
+.navbar.navbar-custom .navbar-brand {
+    color: var(--primaryColor);
+}
+
+.navbar.navbar-custom.bg-dark{
+    background-color: var(--secondaryColor)!important;
+} 
+

@@ -1,0 +1,17 @@
+.badge.badge-title {
+    background-color: var(--primaryColor);
+    font-size: 2em;
+    color: var(--thirdColor);
+    margin-bottom: 50px;
+    padding: 10px 50px;
+}
+
+.bg-theme-primary {
+    background-color: var(--primaryColor);
+}
+.bg-theme-secondary {
+    background-color: var(--secondColor);
+}
+.bg-theme-dark {
+    background-color: var(--thirdColor);
+}

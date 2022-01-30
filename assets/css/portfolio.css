@@ -1,0 +1,32 @@
+.portfolio {
+    background: var(--thirdColor);
+    padding: 50px 0; 
+    margin-bottom: 50px;
+}
+
+.portfolio img{
+    width: 100%; 
+    border-radius: 10px; 
+    border: 1px solid var(--primaryColor); 
+    margin-bottom: 15px;
+}
+
+.portfolio .linkGit small:last-child {
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s, margin-left 0.3s;
+    margin-left: 50px;
+}
+
+.portfolio .linkGit:hover  small{
+    opacity: 1; 
+    text-decoration: none;
+    transition: opacity 0.3s, margin-left 0.3s;
+    
+    margin-left: 0;
+}
+
+.portfolio .linkGit {
+    text-decoration: none;
+}
+

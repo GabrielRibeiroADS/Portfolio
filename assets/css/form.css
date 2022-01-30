@@ -1,0 +1,7 @@
+.modal-content.modal-custom-bg {
+    background-color: var(--secondaryColor);
+}
+
+.modal-custom {
+    border: none;
+}
